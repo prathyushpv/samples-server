@@ -1,0 +1,15 @@
+apiVersion: v2
+name: kibble
+description: Kibble pulls metrics from Prometheus HTTP API, transform, and submit to Datadog
+home: https://github.com/temporalio/taonic
+keywords:
+  - temporal
+  - prometheus
+  - datadog
+maintainers:
+  - name: Tao Guo
+sources:
+  - https://github.com/temporalio/samples-server/tree/main/cloud/observability/kibble
+type: application
+version: 0.1.0
+appVersion: "1.16.0"
